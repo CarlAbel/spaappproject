@@ -1,3 +1,5 @@
+import Testimonials from "../Testimonials/Testimonials"
+
 const Home = () => {
   return (
     <div>
@@ -8,6 +10,7 @@ const Home = () => {
         voluptates deserunt sed esse saepe labore inventore nostrum blanditiis
         deleniti!
       </p>
+      <Testimonials />
     </div>
   )
 }
