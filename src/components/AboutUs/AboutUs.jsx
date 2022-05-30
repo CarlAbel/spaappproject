@@ -1,3 +1,5 @@
+import Testimonials from "../Testimonials/Testimonials"
+
 const AboutUs = () => {
   return (
     <div>
@@ -8,6 +10,9 @@ const AboutUs = () => {
         voluptates deserunt sed esse saepe labore inventore nostrum blanditiis
         deleniti!
       </p>
+      <div>
+        <Testimonials />
+      </div>
     </div>
   )
 }
