@@ -10,7 +10,7 @@ const styles = {
     align-items: center;
     max-width: 1000px;
     margin: 0 auto;
-    border: 4px solid #f1356d53;
+    border: 4px solid #353bf152;
     border-radius: 0 0 1.5rem 1.5rem;
     justify-content: space-between;
     border-top: none;
@@ -23,6 +23,7 @@ const styles = {
       transition: 0.2s;
       font-weight: 600;
       position: relative;
+      color: #353bf152;
 
       &:after {
         content: "";
@@ -32,14 +33,14 @@ const styles = {
         transform: translateX(-50%);
         height: 2px;
         width: 0%;
-        background-color: #f1356d;
+        background-color: #353bf152;
         transition: 0.3s;
         opacity: 0;
         border-radius: 100px;
       }
 
       &:hover {
-        color: #f1356d;
+        color: #353bf1;
 
         &:after {
           width: calc(100% + 8px);
@@ -49,7 +50,7 @@ const styles = {
     }
   `,
   heading: css`
-    color: #f1356d;
+    color: #353bf1;
   `,
   links: css`
     margin-left: auto;
