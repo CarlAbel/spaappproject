@@ -10,7 +10,9 @@ const Home = () => {
         voluptates deserunt sed esse saepe labore inventore nostrum blanditiis
         deleniti!
       </p>
-      <Testimonials />
+      <div>
+        <Testimonials />
+      </div>
     </div>
   )
 }
