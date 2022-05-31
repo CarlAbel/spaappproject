@@ -60,9 +60,10 @@ const styles = {
 const Navbar = () => {
   return (
     <nav css={styles.navbar}>
-      <h1 css={styles.heading}>The Shoju Blog 🥷</h1>
+      <h1 css={styles.heading}>The Cocktail🥷</h1>
       <div className="links" css={styles.links}>
         <Link to="/home">Home</Link>
+        <Link to="/portfolio">Portfolio</Link>
         <Link to="/about">About us</Link>
         <Link to="/contact">Contact</Link>
       </div>
