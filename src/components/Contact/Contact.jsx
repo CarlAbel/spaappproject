@@ -1,8 +1,19 @@
 import Testimonials from "../Testimonials/Testimonials"
+/** @jsxImportSource @emotion/react */
+import { css } from "@emotion/react"
+import GetQuote from "../GetQuote/GetQuote"
 
 const Contact = () => {
+  const styles = {
+    contactContainer: css`
+      max-width: 60%;
+      margin: 40px auto;
+      padding: 20px;
+    `,
+  }
+
   return (
-    <div>
+    <div css={styles.contactContainer}>
       <h1>Contact</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quos. Sint
@@ -12,6 +23,7 @@ const Contact = () => {
       </p>
       <div>
         <Testimonials />
+        <GetQuote />
       </div>
     </div>
   )
