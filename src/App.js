@@ -1,5 +1,4 @@
 /** @jsxImportSource @emotion/react */
-
 import { css } from "@emotion/react"
 import { Outlet } from "react-router-dom"
 import Navbar from "./components/Navbar/Navbar"
@@ -7,7 +6,7 @@ import Navbar from "./components/Navbar/Navbar"
 function App() {
   const styles = {
     content: css`
-      max-width: 800px;
+      max-width: 100%;
       margin: 40px auto;
       padding: 20px;
     `,
