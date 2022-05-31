@@ -6,7 +6,6 @@ const GetQuote = () => {
   const Fetch = () => {
     axios
       .get("https://api.quotable.io/random")
-
       .then((res) => {
         setQuote(res.data.content)
       })
@@ -16,7 +15,9 @@ const GetQuote = () => {
   }
   return (
     <div>
-      <button onClick={Fetch}>Get Your Daily Quote</button>
+      <button className="btn btn-primary" onClick={Fetch}>
+        Get Your Daily Quote
+      </button>
       <p>{quote}</p>
     </div>
   )

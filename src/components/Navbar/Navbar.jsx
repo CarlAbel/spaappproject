@@ -60,7 +60,9 @@ const styles = {
 const Navbar = () => {
   return (
     <nav css={styles.navbar}>
-      <h1 css={styles.heading}>The Cocktail🥷</h1>
+      <Link to="/home">
+        <h1 css={styles.heading}>The SandBox🥷</h1>
+      </Link>
       <div className="links" css={styles.links}>
         <Link to="/home">Home</Link>
         <Link to="/portfolio">Portfolio</Link>

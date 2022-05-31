@@ -20,6 +20,7 @@ const Home = () => {
         voluptates deserunt sed esse saepe labore inventore nostrum blanditiis
         deleniti!
       </p>
+
       <div>
         <Testimonials />
         <GetQuote />

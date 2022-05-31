@@ -1,5 +1,4 @@
 import Testimonials from "../Testimonials/Testimonials"
-
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react"
 import GetQuote from "../GetQuote/GetQuote"
