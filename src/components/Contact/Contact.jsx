@@ -1,39 +1,39 @@
 /** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react"
+import { css } from "@emotion/react";
 
-import "./contact.css"
-import { MdOutlineEmail } from "react-icons/md"
-import { RiMessengerLine } from "react-icons/ri"
-import { BsWhatsapp } from "react-icons/bs"
-import { useRef } from "react"
-import emailjs from "emailjs-com"
+import "./contact.css";
+import { MdOutlineEmail } from "react-icons/md";
+import { RiMessengerLine } from "react-icons/ri";
+import { BsWhatsapp } from "react-icons/bs";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const styles = {
-    contactContainer: css`
+    contactHeaderContainer: css`
       max-width: 60%;
       margin: 40px auto;
       padding: 20px;
     `,
-  }
-  const form = useRef()
+  };
+  const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
     emailjs.sendForm(
       "service_6p0ftul",
       "template_ve3vull",
       form.current,
       "VOWmokY1AoTcLKcyH"
-    )
+    );
 
-    e.target.reset()
-  }
+    e.target.reset();
+  };
 
   return (
     <div>
-      <div css={styles.contactContainer}>
+      <div css={styles.contactHeaderContainer}>
         <h1>Contact</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt
@@ -96,7 +96,7 @@ const Contact = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 
-import { css } from "@emotion/react"
-import { Link } from "react-router-dom"
+import { css } from "@emotion/react";
+import { Link } from "react-router-dom";
 
 const styles = {
   navbar: css`
@@ -55,13 +55,13 @@ const styles = {
   links: css`
     margin-left: auto;
   `,
-}
+};
 
 const Navbar = () => {
   return (
     <nav css={styles.navbar}>
       <Link to="/home">
-        <h1 css={styles.heading}>The SandBox🥷</h1>
+        <h1 css={styles.heading}>The SandBox</h1>
       </Link>
       <div className="links" css={styles.links}>
         <Link to="/home">Home</Link>
@@ -70,7 +70,7 @@ const Navbar = () => {
         <Link to="/contact">Contact</Link>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

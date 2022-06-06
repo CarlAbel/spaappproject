@@ -1,7 +1,8 @@
-import Testimonials from "../Testimonials/Testimonials"
+import Testimonials from "../Testimonials/Testimonials";
 /** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react"
-import GetQuote from "../GetQuote/GetQuote"
+import { css } from "@emotion/react";
+import GetQuote from "../GetQuote/GetQuote";
+import Form from "../Form/Form";
 
 const Home = () => {
   const styles = {
@@ -10,7 +11,7 @@ const Home = () => {
       margin: 40px auto;
       padding: 20px;
     `,
-  }
+  };
   return (
     <div css={styles.homeContainer}>
       <h1>Home</h1>
@@ -24,9 +25,10 @@ const Home = () => {
       <div>
         <Testimonials />
         <GetQuote />
+        <Form />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
